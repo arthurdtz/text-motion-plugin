@@ -1,0 +1,28 @@
+{
+  "id": "com.yourcompany.textmotion",
+  "name": "Text Motion",
+  "version": "0.1.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": [
+    {
+      "app": "premierepro",
+      "minVersion": "25.6.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "textmotion.panel",
+      "label": {
+        "default": "Text Motion"
+      },
+      "minimumSize": { "width": 320, "height": 480 },
+      "preferredDockedSize": { "width": 380, "height": 700 }
+    }
+  ],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess",
+    "clipboard": "readAndWrite"
+  }
+}

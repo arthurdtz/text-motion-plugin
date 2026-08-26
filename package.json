@@ -1,0 +1,13 @@
+{
+  "name": "text-motion-uxp-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Painel UXP para Premiere: criação rápida de textos animados a partir de MOGRTs.",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --outfile=dist/main.js --format=iife --platform=browser",
+    "watch": "esbuild src/main.js --bundle --outfile=dist/main.js --format=iife --platform=browser --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
